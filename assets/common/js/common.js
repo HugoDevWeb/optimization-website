@@ -1,3 +1,15 @@
+(async function() {
+    let div = document.getElementById('googleMap');
+    let iframe = document.createElement('iframe');
+    iframe.setAttribute('sandbox', 'allow-scripts allow-popups allow-top-navigation allow-pointer-lock')
+    iframe.setAttribute('frameborder', '0')
+    iframe.setAttribute('src', "https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&amp;q=iim paris")
+    iframe.setAttribute('allowfullscreen', "")
+
+    await div.appendChild(iframe)
+});
+
+
 /*
  * jQuery Form Styler v2.0.2
  * https://github.com/Dimox/jQueryFormStyler
