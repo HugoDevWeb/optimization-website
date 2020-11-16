@@ -937,8 +937,8 @@ blockquote {
     flex-direction: column;
     -webkit-flex-direction: column;
   }
-  .cid-rHd4LPs6LH img {
-    height: 3.8rem !important;
+  .cid-rHd4LPs6LH nav .container-fluid .menu-logo .navbar-brand .navbar-logo a img {
+    height: 3.8rem;
   }
   .cid-rHd4LPs6LH .btn {
     display: -webkit-flex;
@@ -1248,10 +1248,10 @@ blockquote {
   top: 25%;
 }
 .cid-rHd4LPs6LH .nav-item a {
-  padding: 0 0.5rem !important;
+  padding: 0 0.5rem;
 }
 .cid-rHd4LPs6LH .nav-link {
-  padding: 0rem 0.5rem !important;
+  padding: 0rem 0.5rem;
 }
 .cid-rHd4LPs6LH .mbr-iconfont {
   margin: 0;
