@@ -4,15 +4,15 @@
   src:  url('mobirise2.eot?f2bix4') format('eot');
   src:  url('mobirise2.eot?f2bix4#iefix') format('eot'),
     url('mobirise2.ttf?f2bix4') format('ttf'),
-    url('mobirise2.woff?f2bix4') format('woff'),
+    url('mobirise2.woff?f2bix4') format('woff2'),
     url('mobirise2.svg?f2bix4#mobirise2') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="mobi-"], [class*=" mobi-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'Moririse2' !important;
+  /* use  to prevent issues with browser extensions that change fonts */
+  font-family: 'Moririse2' ;
   speak: none;
   font-style: normal;
   font-weight: normal;

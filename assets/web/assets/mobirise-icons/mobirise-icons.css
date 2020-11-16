@@ -11,8 +11,8 @@
 }
 
 [class^="mbri-"], [class*=" mbri-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: MobiriseIcons !important;
+  /* use  to prevent issues with browser extensions that change fonts */
+  font-family: MobiriseIcons ;
   speak: none;
   font-style: normal;
   font-weight: normal;
