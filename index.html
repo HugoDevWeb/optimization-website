@@ -14,8 +14,14 @@
   <meta property="og:type" content="Le type" />
   <meta property="og:url" content="http://url.com/" />
   <meta property="og:image" content="http://image.jpg" />
+  <meta property="Cache-control" content="no-cache"/>  
 
+  <meta property="X-Frame-Options" content="allow-from uri"/>  
+  <meta property="Content-Security-Policy" content="base-uri 'self'"/>  
+  <meta property="X-Content-Type-Options" content="nosniff"/>  
+  <meta property="Access-Control-Allow-Origin" content="*"/>  
 
+  
   <title>Home</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css" type="text/css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css" type="text/css">
@@ -34,7 +40,6 @@
 <body>
   
   <section class="menu cid-rHd4LPs6LH" once="menu" id="menu1-p">
-    
 
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-toggleable-sm">
         <div class="container-fluid">
@@ -78,18 +83,13 @@
 </section>
 
 <section class="cid-rGu1lE6miU" id="header1-a">
-
-    
-
     <div class="mbr-overlay"></div>
 
     <div class="container-fluid align-left">
         <div class="row">
             <div class="col-md-12 col-lg-12 wrapper-left">
                 <h1 class="mbr-section-title mbr-fonts-style align-left display-1">Morning Star</h1>
-                <h3 class="mbr-section-subtitle mbr-white align-left mbr-fonts-style display-7"><span>Faire du sport en s'amusant</span></h3>
-                <p class="mbr-text pb-3 mbr-fonts-style display-7"></p>
-                
+                <h3 class="mbr-section-subtitle mbr-white align-left mbr-fonts-style display-7"><span>Faire du sport en s'amusant</span></h3>                
             </div>
         </div>
     </div>
@@ -99,9 +99,6 @@
 
 <section class="features11 cid-rHdTXcRzxn" id="features2-u">
 
-    
-
-    
     <div class="container-fluid">
         <div class="container d-flex justify-content-center">
             <div class="mbr-white col-12 align-center">
@@ -146,7 +143,7 @@
             </div>
 
             <div class="card p-3 col-12 col-md-6 col-lg-4">
-              <div class="item-image">
+              <div>
                 <img src="assets/images/mbr-160x177.png" alt="">
               </div>
                 <div class="card-box">
@@ -169,9 +166,6 @@
 
 <section class="cid-rH3cvyUC1g" id="features11-m">
 
-    
-
-    
 
     <div class="container-fluid align-center">
         <div class="blocks-wrapper">          
@@ -291,7 +285,6 @@
 <script src="assets/formstyler/jquery.formstyler.min.js"></script>
 <script src="assets/theme/js/script.js"></script>
 <script src="assets/formoid.min.js"></script>
-<script src="./headers.js"></script>  
   
 </body>
 </html>
