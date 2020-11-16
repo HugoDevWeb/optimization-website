@@ -1,4 +1,4 @@
-(async function() {
+(function() {
     let div = document.getElementById('googleMap');
     let iframe = document.createElement('iframe');
     iframe.setAttribute('sandbox', 'allow-scripts allow-popups allow-top-navigation allow-pointer-lock')
@@ -6,7 +6,7 @@
     iframe.setAttribute('src', "https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&amp;q=iim paris")
     iframe.setAttribute('allowfullscreen', "")
 
-    await div.appendChild(iframe)
+    div.appendChild(iframe)
 });
 
 
